@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<!-- 映射文件 -->
+<!-- namespace:命名空间 -->
+<mapper namespace="cn.tedu.ems.dao.UserDAO">
+	<select id="findByUsername" parameterType="java.lang.String"
+	resultType="cn.tedu.ems.entity.User">
+		select id,username,password pwd,name,gender
+		from t_yzc
+		where username=#{username}
+	</select>
+	
+</mapper>
