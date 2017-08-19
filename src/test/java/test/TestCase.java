@@ -47,4 +47,7 @@ public class TestCase {
 		System.out.println(user);
 		
 	}
+	public void haha(){
+		
+	}
 }
