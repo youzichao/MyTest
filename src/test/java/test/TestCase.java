@@ -50,4 +50,8 @@ public class TestCase {
 	public void haha(){
 		
 	}
+	public String SpliltName(String name){
+
+		return "";
+	}
 }
